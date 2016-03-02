@@ -1,9 +1,24 @@
+body {
+ width: 100%;
+ height: 500px;
+ background-image: url("../images/bkrnd-red-rect.svg");
+ background-repeat:no-repeat;
+ background-size: 100%; /*propotional resize */
+}
+
+div .map img {
+	position: absolute;
+	width: 70%;
+	top: 20px;
+	z-index: 999;
+}
+
 .land {
-  fill: #999;
+  fill: #C7C7CC;
 }
 
 .state-boundary {
-  fill: #999;
+  fill: #C7C7CC;
   stroke: #fff;
   stroke-width: .06em;
 }
