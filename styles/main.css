@@ -1,0 +1,11 @@
+.land {
+  fill: #999;
+}
+
+.state-boundary {
+  fill: #999;
+  stroke: #fff;
+  stroke-width: .06em;
+}
+
+.container h3 {font-family: sans-serif; width:960px;}
